@@ -1,0 +1,17 @@
+package com.practice.others;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class Exception {
+	public static void main(String a[]) throws IOException{
+		
+		String FILENAME="D:\\mayur\\workspace\\data\\abc.txt";
+		FileWriter fw = new FileWriter(FILENAME);
+		
+		//PrintWriter pw - PrintWriter("D:\\mayur\\workspace\\data\\abc.txt")
+		
+	}
+
+}
